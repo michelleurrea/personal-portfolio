@@ -1,10 +1,47 @@
 body{
 	background-color: pink;
+	margin: 0;
+	padding: 0;
 }
 
 h1{
-	font-size: 40px;
+	font-size: 60px;
 	font-family: 'Aguafina Script';
 	color: white;
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: 'Aguafina Script';
+	color: white;
+	text-align: center;
+}
+
+#main {
+	min-height: 100vh;
+	background-image: url("background-sinaloa.jpeg");
+	background-size: cover;
+	background-position: top;
+	padding: 0;
+	margin: 0;
+}
+
+#social-box {
+	text-align: center;
+}
+
+#bio {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#portfolio-photo {
+	max-height: 45vh;
+	max-width: 25vh;
+}
+
+#projects {
 	text-align: center;
 }
